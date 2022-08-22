@@ -28,27 +28,93 @@ This Repository was generated using [Nx](https://nx.dev).You can read more about
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+         <li><a href="#contents">Project Name</a></li>
+         <li><a href="#apps">Apps</a></li>
+         <li><a href="#libs">Libs</a></li>
       </ul>
+    </li>
+    <li>
+      <a href="#built-with">Built with</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#required-tools">Required tools</a></li>
+        <li><a href="#system-dependency">System dependency</a></li>
       </ul>
     </li>
-    <li><a href="#about">about</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+     <li>
+      <a href="#clone-repository">Clone repository</a>
+    </li>
+      <li>
+      <a href="#install-application-and-dependencies">Install application and dependencies</a>
+      <ul>
+        <li><a href="#build-app">Build App</a></li>
+        <li><a href="#run-tests">Run Tests</a></li>
+        <li><a href="#run-lint">Run Lint</a></li>
+      </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
 
+## Built With
+
+
+**Programming Languages**
+
+<img title="Typescript" alt="Typescript" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/typescript/typescript.png" />|<img alt="JS" title="JavaScript" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/javascript/javascript.png">|<img title="Java" alt="java" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/java/java.png">
+|--|--|--|
+
+
+
+**Libraries and Frameworks**
+
+<img title="Angular" alt="Angular" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png">|<img title="express" alt="express" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png">
+|--|--|
+
+
+**Cloud**
+
+<img title="AWS" alt="AWS" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/aws/aws.png">|
+|--|
+
+**Databases**
+
+<img title="SQL" alt="SQL" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/sql/sql.png">|<img title="MongoDB" alt="MongoDB" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/mongodb/mongodb.png">|<img title="ElasticSearch" alt="ElasticSearch" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/elasticsearch/elasticsearch.png"> <br>
+|--|--|--|
+
+**Tools**
+<img title="VS Code" alt="VS Code" width="40px" src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png">|<img title="git" alt="git" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/git/git.png">
+|--|--|
+<br>
+
+
 ### Apps
+
+[encyclopedia-home](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/encyclopedia-home) - Landing pages for all the encyclopedias.
+
+[pdf-viewer](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/pdf-viewer) - pdf viewer app used in book PDP.
+
+[rom-home](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/rom-home) - Landing pages for Romanticism.
+
+[product](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/product) - PDP page.
+
+[search](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/search) - Search results, collections, series, notable figures and image gallery pages.
+
+[ubx-home](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/ubx-home) - Landing pages for UBX.
+
+All the above apps has a corresponding e2e folder for the end to end tests using cypress.
+
 ### Libs
+
+[cloudflare-lib](https://github.com/tandfgroup/discovery-client-websites/tree/develop/libs/cloudflare-lib) - Utility code and cloudflare workers[WIP for webpack].
+
+[prerender-lib](https://github.com/tandfgroup/discovery-client-websites/tree/develop/libs/prerender-lib) - Utility code for all the pre rendering lambdas.
+
+[shared-lib](https://github.com/tandfgroup/discovery-client-websites/tree/develop/libs/shared-lib) - All shared components, services and utils
+
 
 ## Getting started
 
@@ -60,7 +126,7 @@ This Repository was generated using [Nx](https://nx.dev).You can read more about
 ### Run tests
 ### Run Lint
 ## Contributing
-## Usages
+## Usage
 
 
 
