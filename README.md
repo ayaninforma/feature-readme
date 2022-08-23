@@ -1,6 +1,7 @@
-# DiscoveryClientWebsites
+# search-client-ubx2-website
 
-This Repository was generated using [Nx](https://nx.dev).You can read more about NX in the [NX readme guide](https://github.com/tandfgroup/discovery-client-websites/blob/develop/NX_README.md)
+This Web application serves the search page across multiple projects.
+
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -12,13 +13,6 @@ This Repository was generated using [Nx](https://nx.dev).You can read more about
 -->
 
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
 ## Contents
 
 <!-- TABLE OF CONTENTS -->
@@ -28,8 +22,7 @@ This Repository was generated using [Nx](https://nx.dev).You can read more about
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-         <li><a href="#contents">Project Name</a></li>
-         <li><a href="#apps">Apps</a></li>
+         <li><a href="#contents">Project Repo</a></li>
          <li><a href="#libs">Libs</a></li>
       </ul>
     </li>
@@ -51,11 +44,10 @@ This Repository was generated using [Nx](https://nx.dev).You can read more about
       <ul>
         <li><a href="#build-app">Build App</a></li>
         <li><a href="#run-tests">Run Tests</a></li>
-        <li><a href="#run-lint">Run Lint</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#deployment">Deployment</a></li>
   </ol>
 </details>
 
@@ -91,21 +83,6 @@ This Repository was generated using [Nx](https://nx.dev).You can read more about
 <br>
 
 
-### Apps
-
-[encyclopedia-home](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/encyclopedia-home) - Landing pages for all the encyclopedias.
-
-[pdf-viewer](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/pdf-viewer) - pdf viewer app used in book PDP.
-
-[rom-home](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/rom-home) - Landing pages for Romanticism.
-
-[product](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/product) - PDP page.
-
-[search](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/search) - Search results, collections, series, notable figures and image gallery pages.
-
-[ubx-home](https://github.com/tandfgroup/discovery-client-websites/tree/develop/apps/ubx-home) - Landing pages for UBX.
-
-All the above apps has a corresponding e2e folder for the end to end tests using cypress.
 
 ### Libs
 
@@ -119,16 +96,87 @@ All the above apps has a corresponding e2e folder for the end to end tests using
 ## Getting started
 
 ### Required tools
+
+Required tools to setup and build service.
+
+- [Angular](https://angular.io/): Angular is an app-design framework and development platform for creating efficient and sophisticated single-page apps.
+- TypeScript:
+  - [TypeScript](http://www.typescriptlang.org/): A superset of JavaScript that compiles to clean JavaScript output.
+  - [@types](https://www.npmjs.com/~types): TypeScript definitions for Node modules.
+  - [ESLint](https://eslint.org/): ESLint checks your TypeScript code for readability, maintainability, and functionality errors.
+- Unit Testing:
+  - [Karma](https://angular.io/guide/testing): This guide offers tips and techniques for unit and integration testing Angular applications.
+
+
 ### System dependency
+
+
+Your system will need access to [`node`](https://nodejs.org/en/) v9+ and [`npm`](https://www.npmjs.com/) v3+.
+
+With Node/npm installed, you should install these globals with `npm install --global`:
+
 ## Clone repository
-## Install application and dependencies
+
+```sh
+# --depth 1 removes all but one .git commit history
+git clone  https://github.com/tandfgroup/search-client-ubx2-website.git
+search-client-ubx2-website
+
+# change directory to repo
+cd search-client-ubx2-website
+npm install
+```
+### Install application and dependencies <a id="install-app"></a>
+
+```bash
+npm login --registry https://npm.taylorfrancis.com
+```
+
+```bash
+npm install --registry https://npm.taylorfrancis.com
+```
+
+
 ### Build app
+
+
+```bash
+npm run prerender:dev
+```
+
 ### Run tests
-### Run Lint
+
+```bash
+npm run test
+```
+
 ## Contributing
-## Usage
+
+Please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 
+## Deployment
+
+
+There are readme files in each app which describes how to setup each project and do the local development. Deployments are done using Github Actions. All the apps are deployed using specific tags that are defined in the [build script](https://github.com/tandfgroup/discovery-client-websites/blob/develop/.github/workflows/deploy.yml).
+
+Create a release from the Github website with proper release notes. This helps in auditing as well. Choose the correct branch to deploy from and also create the correct tag. The application will be deployed based on the tag.
+
+The tag follows a particular pattern like `<app>/*/[1-9]+.[0-9]+.[0-9]+`.
+for example, to deploy product pages to uat green, the tag would be `product/u-g/2.0.3` and so on.
+
+There is a lot of scope for improvements in the deploy scripts and tagging patterns. PRs are welcome
+
+
+```bash
+ serverless deploy --stage ${ENVIRONMENT}
+```
 
 
 
