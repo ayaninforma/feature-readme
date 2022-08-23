@@ -124,7 +124,7 @@ search-client-ubx2-website
 
 # change directory to repo
 cd search-client-ubx2-website
-npm install
+
 ```
 ### Install application and dependencies <a id="install-app"></a>
 
