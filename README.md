@@ -101,8 +101,8 @@ With Node/npm installed, you should install these globals with `npm install --gl
 
 ```sh
 # --depth 1 removes all but one .git commit history
+# search-service-es-ubx2-api
 git clone  https://github.com/tandfgroup/search-service-es-ubx2-api
-search-client-ubx2-website
 
 # change directory to repo
 cd search-client-ubx2-website
@@ -112,6 +112,7 @@ cd search-client-ubx2-website
 
 ```bash
 npm login --registry https://npm.taylorfrancis.com
+#enter the username, password, email
 ```
 
 ```bash
@@ -123,14 +124,30 @@ npm install --registry https://npm.taylorfrancis.com
 
 
 ```bash
-npm run prerender:dev
+npm run build
+```
+### Start app
+
+```bash
+npm run start
+
+# To start the `nodemon` so that which every change you make in repository, it watches for changes and builds and starts the application again. 
+# npm run dev
 ```
 
 ### Run tests
-
 ```bash
 npm run test
 ```
+
+### Travis Build Link
+
+
+`Travis Build Link:` https://travis-ci.com/github/tandfgroup/search-service-es-ubx2-api?utm_campaign=ww_en_brand&utm_medium=cpc&utm_source=google&utm_term=travis%20ci
+
+### Sonar Coverage
+
+`Sonar Coverage:` https://sonarcloud.io/dashboard?id=tandfgroup_search-service-es-ubx2-api
 
 ## Contributing
 
@@ -159,3 +176,4 @@ There is a lot of scope for improvements in the deploy scripts and tagging patte
 ```bash
  serverless deploy --stage ${ENVIRONMENT}
 ```
+`--Thank you --😊`
