@@ -17,7 +17,6 @@ Master Branch: master
       <a href="#about-the-project">About The Project</a>
       <ul>
          <li><a href="#contents">Project Repo</a></li>
-         <li><a href="#libs">Libs</a></li>
       </ul>
     </li>
     <li>
@@ -37,6 +36,9 @@ Master Branch: master
       <a href="#install-application-and-dependencies">Install application and dependencies</a>
       <ul>
         <li><a href="#build-app">Build App</a></li>
+        <li><a href="#start-app">Start App</a></li>
+        <li><a href="#travis-build-link">Travis Build Link</a></li>
+        <li><a href="#sonar-coverage">Sonar Coverage</a></li>
         <li><a href="#run-tests">Run Tests</a></li>
       </ul>
     </li>
@@ -108,7 +110,7 @@ git clone  https://github.com/tandfgroup/search-service-es-ubx2-api
 cd search-client-ubx2-website
 
 ```
-### Install application and dependencies <a id="install-app"></a>
+### Install application and dependencies
 
 ```bash
 npm login --registry https://npm.taylorfrancis.com
