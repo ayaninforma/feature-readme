@@ -1,4 +1,4 @@
-# search-client-ubx2-website
+# search-worker-es-ubx2-handler-entitlements
 
 This Web application serves the search page across multiple projects.
 
