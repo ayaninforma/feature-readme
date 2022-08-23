@@ -1,10 +1,11 @@
-# search-service-es-ubx2-api
+# search-utility-ubx2-sitemap
 
-`DESCRITPION:` A search service to build up ElasticSearch queries and interact with ES to fetch the search results.
+`DESCRITPION:`A schedular utility to generate the sitemap for UBX by fetching the required data from Elasticsearch.
 
-Basic Tools Required to run the application:`NodeJS`  `typescript` 
+This is a NodeJS repo which generates the sitemap for UBX 2.0 powered by ElasticSearch.
+Using the search and scroll API we query all the products from their respective indexes and generate a sitemap containing 15000 urls in one sitemap file 
+and the last sitemap contains the static URLS for the UBX 2.0 platform.
 
-Master Branch: master
 
 
 ## Contents
@@ -103,18 +104,16 @@ With Node/npm installed, you should install these globals with `npm install --gl
 
 ```sh
 # --depth 1 removes all but one .git commit history
-# search-service-es-ubx2-api
-git clone  https://github.com/tandfgroup/search-service-es-ubx2-api
+# search-utility-ubx2-sitemap
+git clone  https://github.com/tandfgroup/search-utility-ubx2-sitemap
 
 # change directory to repo
-cd search-client-ubx2-website
-
+cd search-utility-ubx2-sitemap
 ```
 ### Install application and dependencies
 
 ```bash
 npm login --registry https://npm.taylorfrancis.com
-#enter the username, password, email
 ```
 
 ```bash
@@ -128,28 +127,10 @@ npm install --registry https://npm.taylorfrancis.com
 ```bash
 npm run build
 ```
-### Start app
-
-```bash
-npm run start
-
-# To start the `nodemon` so that which every change you make in repository, it watches for changes and builds and starts the application again. 
-# npm run dev
-```
-
 ### Run tests
 ```bash
 npm run test
 ```
-
-### Travis Build Link
-
-
-`Travis Build Link:` https://travis-ci.com/github/tandfgroup/search-service-es-ubx2-api?utm_campaign=ww_en_brand&utm_medium=cpc&utm_source=google&utm_term=travis%20ci
-
-### Sonar Coverage
-
-`Sonar Coverage:` https://sonarcloud.io/dashboard?id=tandfgroup_search-service-es-ubx2-api
 
 ## Contributing
 
