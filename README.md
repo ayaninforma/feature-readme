@@ -152,7 +152,7 @@ npm run test
 
 ## Contributing
 
-Please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Please fork the repo and create a pull request.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
