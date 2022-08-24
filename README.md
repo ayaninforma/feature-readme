@@ -124,7 +124,7 @@ With Node/npm installed, you should install these globals with `npm install --gl
 git clone https://github.com/tandfgroup/search-worker-es-ubx2-handler-europa
 
 # change directory to repo
-cd ssearch-worker-es-ubx2-handler-europa
+cd search-worker-es-ubx2-handler-europa
 
 ```
 ### Install application and dependencies <a id="install-app"></a>
