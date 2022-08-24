@@ -119,12 +119,12 @@ With Node/npm installed, you should install these globals with `npm install --gl
 
 ```sh
 # --depth 1 removes all but one .git commit history
-# search-worker-es-ubx2-handler-europa
+# knowledge-service-api
 
-git clone https://github.com/tandfgroup/search-worker-es-ubx2-handler-europa
+git clone https://github.com/tandfgroup/knowledge-service-api
 
 # change directory to repo
-cd ssearch-worker-es-ubx2-handler-europa
+cd knowledge-service-api
 
 ```
 ### Install application and dependencies <a id="install-app"></a>
