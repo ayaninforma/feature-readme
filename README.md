@@ -1,4 +1,4 @@
-# search-worker-es-ubx2-handler-europa
+# knowledge-service-api
 
 This Web application serves the search page across multiple projects.
 
