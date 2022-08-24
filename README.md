@@ -1,4 +1,4 @@
-# search-client-ubx2-website
+# search-worker-es-ubx2-handler-products
 
 This Web application serves the search page across multiple projects.
 
@@ -119,12 +119,12 @@ With Node/npm installed, you should install these globals with `npm install --gl
 
 ```sh
 # --depth 1 removes all but one .git commit history
-# search-client-ubx2-website
+# search-worker-es-ubx2-handler-products
 
-git clone https://github.com/tandfgroup/search-client-ubx2-website
+git clone https://github.com/tandfgroup/search-worker-es-ubx2-handler-products
 
 # change directory to repo
-cd search-client-ubx2-website
+cd search-worker-es-ubx2-handler-products
 
 ```
 ### Install application and dependencies <a id="install-app"></a>
