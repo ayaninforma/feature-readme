@@ -1,4 +1,5 @@
-# Usage-report-API
+# Analytics-customer-collector
+
 
 This Web application serves the search page across multiple projects.
 
@@ -119,12 +120,13 @@ With Node/npm installed, you should install these globals with `npm install --gl
 
 ```sh
 # --depth 1 removes all but one .git commit history
-# Usage-report-API
+# Analytics-customer-collector
 
-git clone https://github.com/tandfgroup/Usage-report-API
+
+git clone https://github.com/tandfgroup/Analytics-customer-collector
 
 # change directory to repo
-cd Usage-report-API
+cd Analytics-customer-collector
 
 ```
 ### Install application and dependencies <a id="install-app"></a>
