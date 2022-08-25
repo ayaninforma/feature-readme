@@ -1,4 +1,4 @@
-# knowledge-service-api
+# Usage-report-API
 
 This Web application serves the search page across multiple projects.
 
@@ -119,12 +119,12 @@ With Node/npm installed, you should install these globals with `npm install --gl
 
 ```sh
 # --depth 1 removes all but one .git commit history
-# knowledge-service-api
+# Usage-report-API
 
-git clone https://github.com/tandfgroup/knowledge-service-api
+git clone https://github.com/tandfgroup/Usage-report-API
 
 # change directory to repo
-cd knowledge-service-api
+cd Usage-report-API
 
 ```
 ### Install application and dependencies <a id="install-app"></a>
